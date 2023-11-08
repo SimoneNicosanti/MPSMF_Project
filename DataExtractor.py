@@ -41,5 +41,5 @@ def extractData(currency : str, startDate : str, endDate : str, interval : str) 
         
     #Export as csv
     outputFileName : str = currency + "_Data.csv"
-    outputFilePath = os.path.join("./", "data", outputFileName) ;
+    outputFilePath = os.path.join("./", "data", outputFileName)
     df.to_csv(outputFilePath)

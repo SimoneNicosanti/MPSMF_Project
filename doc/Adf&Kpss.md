@@ -1,6 +1,7 @@
+# Definition of the tests
 The Augmented Dickey-Fuller (ADF) test and the Kwiatkowski-Phillips-Schmidt-Shin (KPSS) test are commonly used statistical tests to determine whether a time series exhibits a random walk component or is stationary. These tests can help you assess the presence of unit roots in the data, which is a characteristic of non-stationarity often associated with random walks.
 
-1. **ADF Test (Augmented Dickey-Fuller Test):**
+### 1. **ADF Test (Augmented Dickey-Fuller Test):**
 
    The ADF test is used to check for the presence of a unit root in a time series. A unit root implies that the time series is non-stationary and may exhibit a random walk component. The null hypothesis of the ADF test is that the time series has a unit root (it's non-stationary), while the alternative hypothesis is that it does not have a unit root (it's stationary).
 
@@ -14,7 +15,7 @@ The Augmented Dickey-Fuller (ADF) test and the Kwiatkowski-Phillips-Schmidt-Shin
 
    Check the p-value in the result. If the p-value is less than your chosen significance level (e.g., 0.05), you can reject the null hypothesis and conclude that the series is stationary. Otherwise, if the p-value is greater than the significance level, you may fail to reject the null hypothesis, indicating non-stationarity.
 
-2. **KPSS Test (Kwiatkowski-Phillips-Schmidt-Shin Test):**
+### 2. **KPSS Test (Kwiatkowski-Phillips-Schmidt-Shin Test):**
 
    The KPSS test is used to test for stationarity in a time series. The null hypothesis of the KPSS test is that the time series is stationary (it does not have a unit root), while the alternative hypothesis is that it has a unit root (non-stationary).
 
