@@ -2,7 +2,8 @@
 install.packages("strucchange")
 library(strucchange)
 
-breakPointSearch <- function(df, date) {
+## R function for structural breaks search
+breakPointSearch <- function(time_series) {
     breakpoints_result <- breakpoints(time_series ~ 1)
-    return(breakpoints_result$breakpoints[, 1])
+    return(breakpoints_result$breakpoints)
 }
