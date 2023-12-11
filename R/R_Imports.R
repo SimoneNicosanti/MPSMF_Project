@@ -5,4 +5,4 @@ install.packages("tseries", repos = "https://cran.mirror.garr.it/CRAN/")
 
 library(strucchange)
 library(SupMZ)
-library(tseries)
+# library(tseries)
