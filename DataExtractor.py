@@ -3,8 +3,6 @@ import time
 import pandas as pd
 import os
 
-from statsmodels.tsa.stattools import adfuller, kpss
-
 def create_download_url(
     ticker,
     period1,
