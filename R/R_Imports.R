@@ -1,11 +1,11 @@
 # Install and load the strucchange package
-install.packages("strucchange", repos = "https://cran.mirror.garr.it/CRAN/")
-install.packages("SupMZ", repos = "https://cran.mirror.garr.it/CRAN/")
-install.packages("tseries", repos = "https://cran.mirror.garr.it/CRAN/")
-install.packages("skewt", repos = "https://cran.mirror.garr.it/CRAN/")
-install.packages("fitdistrplus", repos = "https://cran.mirror.garr.it/CRAN/")
-install.packages("glogis", repos = "https://cran.mirror.garr.it/CRAN/")
-install.packages("sn", repos = "https://cran.mirror.garr.it/CRAN/")
+install.packages("strucchange", repos = "https://cran.stat.unipd.it/")
+install.packages("SupMZ", repos = "https://cran.stat.unipd.it/")
+install.packages("tseries", repos = "https://cran.stat.unipd.it/")
+install.packages("skewt", repos = "https://cran.stat.unipd.it/")
+install.packages("fitdistrplus", repos = "https://cran.stat.unipd.it/")
+install.packages("glogis", repos = "https://cran.stat.unipd.it/")
+install.packages("sn", repos = "https://cran.stat.unipd.it/")
 
 library(strucchange)
 library(SupMZ)
