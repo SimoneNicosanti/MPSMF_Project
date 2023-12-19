@@ -1,6 +1,7 @@
 genlogistic_fit <- function(data) {
     fitted_genlogistic <- fitdistrplus::fitdist(data, dglogis, start=list(location = 0, scale = 1, shape = 1), method= "mle")
-    return_list <- list(params = fitted_genlogistic$estimate, loglik = fitted_genlogistic$loglik, summary = summary(fitted_genlogistic))
+    confInt <- fitdistrplus::bootdist(fitted_genlogistic, niter = 500)
+    return_list <- list(params = fitted_genlogistic$estimate, loglik = fitted_genlogistic$loglik, summary = summary(fitted_genlogistic), confInt = confInt$CI)
     return(return_list)
 }
 
