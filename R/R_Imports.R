@@ -1,4 +1,4 @@
-# Install and load the strucchange package
+
 install.packages("strucchange", repos = "https://cran.stat.unipd.it/")
 install.packages("SupMZ", repos = "https://cran.stat.unipd.it/")
 install.packages("tseries", repos = "https://cran.stat.unipd.it/")
